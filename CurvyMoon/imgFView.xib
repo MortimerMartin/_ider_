@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="imgF" id="iN0-l3-epB" customClass="imgFView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHl-w9-Yo8">
+                    <rect key="frame" x="325" y="8" width="42" height="20.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="JDL-cR-9KJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g8N-EZ-B0N">
+                    <rect key="frame" x="0.0" y="53" width="375" height="3"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="3" id="NYC-2C-ls3"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NrD-zy-5dk">
+                    <rect key="frame" x="8" y="8" width="42" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NrD-zy-5dk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="3k9-mc-z4Z"/>
+                <constraint firstItem="DHl-w9-Yo8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="NrD-zy-5dk" secondAttribute="trailing" constant="42" id="PMy-dA-Nqv"/>
+                <constraint firstAttribute="trailing" secondItem="DHl-w9-Yo8" secondAttribute="trailing" constant="8" id="ZS1-Ue-gdx"/>
+                <constraint firstItem="DHl-w9-Yo8" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="dWF-L5-MOi"/>
+                <constraint firstItem="NrD-zy-5dk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="nMm-aM-9As"/>
+                <constraint firstAttribute="bottom" secondItem="g8N-EZ-B0N" secondAttribute="bottom" constant="64" id="zXV-b1-yzR"/>
+                <constraint firstAttribute="trailing" secondItem="g8N-EZ-B0N" secondAttribute="trailing" id="zf7-cu-U98"/>
+                <constraint firstItem="g8N-EZ-B0N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="zmb-fQ-Q1H"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="imgnumber" destination="DHl-w9-Yo8" id="O1Y-sU-Z72"/>
+                <outlet property="imgtitle" destination="NrD-zy-5dk" id="d9Q-kB-Gjl"/>
+            </connections>
+            <point key="canvasLocation" x="186.5" y="420"/>
+        </view>
+    </objects>
+</document>

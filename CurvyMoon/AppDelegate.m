@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "CurvyMoonViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    UIWindow *window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    self.window = window;
+//    
+//    //指定window的root控制器
+//    CurvyMoonViewController *CM = [[CurvyMoonViewController alloc] init];
+//    self.window.rootViewController = CM;
+//    
+//    //激活系统window并赋值
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 

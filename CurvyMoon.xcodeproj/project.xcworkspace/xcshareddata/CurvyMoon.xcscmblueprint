@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c159037c-75f1-4781-b04b-e3c48b987ea9++2295" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c159037c-75f1-4781-b04b-e3c48b987ea9++2295" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9CF894E8-263A-4127-A11E-82425B207205",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c159037c-75f1-4781-b04b-e3c48b987ea9++2295" : "CurvyMoon\/CurvyMoon\/MJRefresh\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CurvyMoon",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CurvyMoon.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/carcar",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c159037c-75f1-4781-b04b-e3c48b987ea9++2295"
+    }
+  ]
+}

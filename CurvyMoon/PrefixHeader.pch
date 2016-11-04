@@ -1,0 +1,57 @@
+//
+//  PrefixHeader.pch
+//  CurvyMoon
+//
+//  Created by qingyun on 16/5/10.
+//  Copyright © 2016年 qingyun. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define iPhoneHeight [[UIScreen mainScreen] bounds].size.height
+#define iPhoneWidth  [[UIScreen mainScreen] bounds].size.width
+
+
+//4的设备
+#define KDevice_Is_Retina ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 960), [[UIScreen mainScreen] currentMode].size) : NO)
+//5,5s的设备
+#define kDevice_Is_iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
+#define kDevice_Is_iPhone6Plus ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1242, 2208), [[UIScreen mainScreen] currentMode].size) : NO)
+/*--------------------------wuyong------------------------*/
+#define kBannerurl @"http://t.gexiaojie.com/api.php?output=json&a=getslide&c=app&_app_key=f722d367b8a96655c4f3365739d38d85&_app_secret=30248115015ec6c79d3bed2915f9e4cc"  //轮播图
+
+#define kRCurl @"http://t.gexiaojie.com/api.php?output=json&a=artlistV2&c=column&_app_key=f722d367b8a96655c4f3365739d38d85&size=20&pg=1&_app_secret=30248115015ec6c79d3bed2915f9e4cc" //首页
+
+/*---------------------------------fun--------------------------------*/
+
+#define kMore @"http://t.gexiaojie.com/api.php?output=json&a=artlistV2&c=column&_app_key=f722d367b8a96655c4f3365739d38d85&size=20&pg=%ld&_app_secret=30248115015ec6c79d3bed2915f9e4cc"
+
+#define kDetailurl @"http://t.gexiaojie.com/index.php?m=mobile&c=explorer&a=article&aid="  //跳转网页
+
+#define k5Detail_url @"http://t.gexiaojie.com/api.php?output=json&a=contentV2&c=article&_app_key=f722d367b8a96655c4f3365739d38d85&_app_secret=30248115015ec6c79d3bed2915f9e4cc&aid=" //type5
+
+#define kType2_1url @"http://t.gexiaojie.com/api.php?output=json&a=getRelation&c=article&_app_key=f722d367b8a96655c4f3365739d38d85&size=20&pg=1&_app_secret=30248115015ec6c79d3bed2915f9e4cc&aid=" //Type2
+
+
+/*---------------------------------discover--------------------------------*/
+
+#define kdiscover @"http://t.gexiaojie.com/api.php?output=json&a=topiclist&c=column&_app_key=f722d367b8a96655c4f3365739d38d85&size=5&pg=1&_app_secret=30248115015ec6c79d3bed2915f9e4cc&column_recommend=1"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "AFNetworking.h" // 请求数据
+
+#import "UIImageView+WebCache.h"//下载图片
+
+#import "MBProgressHUD.h"//风火轮
+
+#import "MJRefresh.h"
+
+#import "UIViewController+LewPopupViewController.h"
+#import "LewPopupViewAnimationFade.h"
+#import "LewPopupViewAnimationSlide.h"
+#import "LewPopupViewAnimationSpring.h"
+#import "LewPopupViewAnimationDrop.h"
+#endif /* PrefixHeader_pch */
